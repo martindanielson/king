@@ -1,4 +1,4 @@
-## Captains log, startdate 203412321
+## Captain's log, startdate 73374.2
 
 I used the [Create React App](https://github.com/facebook/create-react-app) as a base for the assignment. Since _Fredrik_ mentioned _Styled Components_ I wanted to make use of it in the assignment; both coding and learning at the same time. This choice did add some extra overhead in terms of time, but has given me a solid understanding of the concept and its capabilities.
 

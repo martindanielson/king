@@ -9,7 +9,6 @@ const Container = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  // align-items: center;
 `;
 
 const Games = ({ games }) => (

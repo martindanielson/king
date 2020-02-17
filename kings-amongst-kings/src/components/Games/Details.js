@@ -36,12 +36,16 @@ const Popup = styled.div`
 
 const Container = styled.div`
   display: grid;
-  grid-template-columns: 200px auto;
-  width: 500px;
+  grid-template-columns: 100px auto;
+  width: 90vw;
   justify-self: center;
   padding-top: 20px;
 
   color: white;
+
+  @media (min-width: 700px) {
+    width: 400px;
+  }
 `;
 
 const Close = styled.button`
@@ -71,7 +75,7 @@ const Details = ({ name, short, url, added }) => {
   return (
     <Popup {...{ short }}>
       <Container>
-        <img alt={name} src={`//picsum.photos/seed/${short}/170/80`} />
+        <img alt={name} src={`//picsum.photos/seed/${short}/60/60`} />
         <div>
           <Title>
             {added && (
@@ -82,8 +86,8 @@ const Details = ({ name, short, url, added }) => {
             {name}
           </Title>
           <br />
-          <Link target="_blank" href={`//king.com/${url}`}>
-            Homepage
+          <Link target="_blank" href={`//king.com${url}`}>
+            Play now!
           </Link>
         </div>
         <Close onClick={clearGame}>
