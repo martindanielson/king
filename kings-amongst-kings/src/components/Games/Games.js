@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-import Game from './Game';
+import Game from "./Game";
 
 const Container = styled.div`
   color: red;
@@ -14,7 +14,9 @@ const Container = styled.div`
 
 const Games = ({ games }) => (
   <Container data-testid="games">
-    {games.map(game => <Game {...game} key={game.short} />)}
+    {games.map(game => (
+      <Game {...game} key={game.short} />
+    ))}
   </Container>
 );
 
