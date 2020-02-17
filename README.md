@@ -9,13 +9,17 @@ Given the above endeavours I needed to cut out a few things in order to spend re
 Designing the UI of the application was inspired by game launchers and Netflix style applications. I wanted a view where I could do it all in a fairly simple, yet engaging way. I also wanted to keep the full list of games always visible and not separate the views; in order to always expose the games available on the platform.
 I must admit that I spent a lot more time than I initially thought I would on the actual design of the application. I wanted it to be something I was proud over and could use myself, I think those words from the instruction resonated most with me. It is not that it is complicated work, I had an idea of how to solve all my designs; but the problem was being content with what I produced and re-designing a lot of the parts several times. I think I would maybe plan a little bit more ahead next time to iron out more of the UX/UI concepts.
 
-## Available Scripts
+## Getting started
 
-In the `kings-amongst-kings` directory, you can run:
+Either clone or download the ZIP archive to your computer. Navigate into the `kings-amongst-kings` directory
+
+### `cd kings-amongst-kings` + Tab-key
+
+Then choose between the following options:
 
 ### `npm install`
 
-This will install all the dependencies for this project as well as the ones for the `../service`
+This will install all the dependencies for this project; as well as the ones for the `../service`. Run this once.
 
 ### `npm start`
 
