@@ -48,6 +48,7 @@ class View extends Component {
   async componentDidMount() {
     const response = await fetch('http://localhost:12345/games.json');
     const { games } = await response.json();
+    console.log('WHERE\'S MY CAR?!?!?', games)
     this.setState({ games });
   }
 

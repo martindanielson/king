@@ -13,7 +13,7 @@ const Container = styled.div`
 `;
 
 const Games = ({ games }) => (
-  <Container>
+  <Container data-testid="games">
     {games.map(game => <Game {...game} key={game.short} />)}
   </Container>
 );
